@@ -1,0 +1,36 @@
+/****************
+all common styles
+*****************/
+body {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+/****************
+    custom CSS
+*****************/
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.main-left img {
+  width: 70%;
+}
+.calculation {
+  display: flex;
+}
+.hr {
+  border-bottom: 3px solid black;
+}
+.promo-code-input {
+  display: flex;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+}
