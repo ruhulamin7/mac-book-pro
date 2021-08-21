@@ -18,32 +18,37 @@
 </head>
 
 <body>
+    <!-- header area starts-->
     <header>
         <h1 class="text-center text-warning p-5">Welcome to the Apple Shop</h1>
     </header>
+    <!-- header area ends -->
+
+    <!-- main area starts-->
     <main>
         <section class="container">
             <div class="main-left text-center">
                 <img src="images/mac.png" alt="">
             </div>
             <div class="main-right px-5">
-                <section class="heading mb-5">
+                <section class="heading mb-4">
                     <h2>Customize your Blue 24-inch iMac with Apple M1 chip</h2>
-                    <p>Apple M1 keep with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU and
+                    <p class="details">Apple M1 keep with 8-core CPU with 4 performance cores and 4 efficiency cores,
+                        7-core GPU and
                         16-core
                         Neural Engine 8GB unified memory 256 GB SSD storage Two Thunderbolt / USB 4 port magic Mouse
                         magic
                         keyboard - US English</p>
                 </section>
                 <section class="configuration">
-                    <div class="memory mb-5">
+                    <div class="memory mb-3">
                         <p><b>Memory</b></p>
                         <div>
                             <button id="8gb-memory" class="btn btn-outline-dark">8GB unified memory</button>
                             <button id="16gb-memory" class="btn btn-outline-dark">16GB unified memory</button>
                         </div>
                     </div>
-                    <div class="memory mb-5">
+                    <div class="memory mb-3">
                         <p><b>Storage</b></p>
                         <div>
                             <button id="256gb-ssd" class="btn btn-outline-dark">256GB SSD Storage</button>
@@ -51,7 +56,7 @@
                             <button id="1tb-ssd" class="btn btn-outline-dark">1TB SSD Storage</button>
                         </div>
                     </div>
-                    <div class="memory mb-5">
+                    <div class="memory mb-3">
                         <p><b>Choose your delivery option</b></p>
                         <div>
                             <button id="free-delivery" class="btn btn-outline-dark">Aug-25, Free Prime Delivery</button>
@@ -61,10 +66,10 @@
                     </div>
                 </section>
                 <section class="calculation mb-3 pt-5">
-                    <div class="perpose col-lg-7 col-md-12 col-12">
+                    <div class="perpose col-lg-8 col-md-12 col-12">
                         <div class="price">
                             <p>Best Price</p>
-                            <p><span id="base-price">1299</span></p>
+                            <p><span id="best-price">1299</span></p>
                         </div>
                         <hr>
                         <div class="price">
@@ -89,9 +94,9 @@
                         <hr>
                     </div>
                 </section>
-                <section class="promo-code">
+                <section class="promo-code col-lg-8">
                     <p>Add Promo Code</p>
-                    <div class="promo-code-input col-lg-7">
+                    <div class="promo-code-input ">
                         <input id="promo-code-input" class="form-control" type="text" name="">
                         <button id="promo-code-apply" class="btn btn-danger">Apply</button>
                     </div>
@@ -99,13 +104,17 @@
             </div>
         </section>
     </main>
+    <!-- main area ends -->
     <hr>
+    <!-- footer area starts -->
     <footer>
         <section class="promo-total p-3">
             <h2 class="text-center">Total : $<span id="grand-total">1299</span></h2>
         </section>
     </footer>
+    <!-- footer are starts -->
 
+    <!-- js file -->
     <script src="js/script.js"></script>
 </body>
 

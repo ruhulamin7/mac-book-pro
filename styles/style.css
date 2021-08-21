@@ -13,6 +13,9 @@ p {
 /****************
     custom CSS
 *****************/
+.details {
+  font-weight: 300;
+}
 .container {
   margin: 0 auto;
   display: grid;
@@ -33,4 +36,7 @@ p {
 .price {
   display: flex;
   justify-content: space-between;
+}
+.price p {
+  line-height: 8px;
 }
