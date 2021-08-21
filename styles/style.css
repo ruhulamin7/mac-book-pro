@@ -33,6 +33,9 @@ p {
 .promo-code-input {
   display: flex;
 }
+#promoError {
+  display: none;
+}
 .price {
   display: flex;
   justify-content: space-between;

@@ -39,7 +39,10 @@ function promoCodeMatcher() {
         const discount = (parseFloat(totalPrice.innerText) * 20) / 100;
         const newGrandTotal = parseFloat(totalPrice.innerText) - discount;
         grandTotal.innerText = newGrandTotal;
+        document.getElementById('promoError').style.display = 'none';
         promoCodeInput.value = ''
+    } else {
+        document.getElementById('promoError').style.display = 'block';
     }
 }
 
